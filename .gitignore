@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-yarn.lock
 
 # testing
 /coverage
@@ -18,7 +17,6 @@ yarn.lock
 
 # misc
 .DS_Store
-*.pem
 
 # debug
 npm-debug.log*
@@ -31,5 +29,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# vercel
-.vercel
+# sw stuff
+public/sw.js
+public/workbox-*.js
+
+# storybook
+storybook-static
